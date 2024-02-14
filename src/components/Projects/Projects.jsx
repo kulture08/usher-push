@@ -7,9 +7,8 @@ const Projects = () => {
   return (
     <Container id='project'>
         <Zoom>
-            <h1>Recent <span className="green">Projects</span></h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto doloremque 
-            voluptate excepturi porro sed totam quis animi dolorum rerum earum.</p>
+            <h1>Recent <span className="white">Projects</span></h1>
+            <p>  Check out some of my recent projects where I've utilized my frontend web development skills. Each project showcases my attention to detail and commitment to delivering exceptional user experiences.</p>
         </Zoom>
         <Slide>
             <SliderComp/>
@@ -35,6 +34,7 @@ const Container = styled.div`
     }
 
     p{
+        line-height:1.4;
         width: 28rem;
         margin: 0 auto;
         padding: 1rem 0;

@@ -11,7 +11,7 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          My <span className="white">services</span>
         </h4>
         <h1>What I Do</h1>
       </Slide>
@@ -20,24 +20,22 @@ const Services = () => {
           <Card
             Icon={MdDesignServices}
             title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            disc={`""Aspiring UX/UI designer with a foundation in user experience and interface design.""`}
           />
         </Slide>
-        <Slide direction="up">
+        {/* <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
             title={"graphic designer"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
           />
-        </Slide>
+        </Slide> */}
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"web developer"}
+            disc={`"Developer skilled in HTML, CSS, React.js, and foundational JavaScript knowledge`}
           />
         </Slide>
       </Cards>

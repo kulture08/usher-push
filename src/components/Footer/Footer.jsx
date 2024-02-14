@@ -21,14 +21,14 @@ const Footer = () => {
         <Slide direction="left" delay={1}>
           <h1>Portfolio</h1>
         </Slide>
-        <div className="address">
+        {/* <div className="address">
           <Slide direction="left">
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>3691 Emganwini Nkulumane  Bulawayo </p>
           </Slide>
-        </div>
+        </div> */}
         <div className="links">
           <Slide direction="left">
             <h1>Contact me directly:</h1>
@@ -38,7 +38,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+263782528050">+47 333 78 901</a>
+              <a href="#">tel:+263 77610 1826</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +48,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:tondekawere@gmail.com">miladamiri@gmail.com</a>
+              <a href="#">ndlovuusher38@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Footer = () => {
           <Slide direction="left">
             <h1>Check my profiles</h1>
           </Slide>
-          <div className="icons">
+          {/* <div className="icons">
             <Zoom>
               <span>
                 <a href="/">
@@ -85,13 +85,13 @@ const Footer = () => {
                 </a>
               </span>
             </Zoom>
-          </div>
+          </div> */}
         </div>
-        <Fade>
+        {/* <Fade>
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
           </ArrowUp>
-        </Fade>
+        </Fade> */}
       </Profile>
       <Form>
         <Slide direction="right">
@@ -132,7 +132,8 @@ const Container = styled.div`
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+justify-content: center;
+    align-items: center;
   @media (max-width: 840px) {
     width: 90%;
   }
@@ -143,6 +144,8 @@ const Container = styled.div`
   }
 `;
 const Profile = styled.div`
+    margin: 5% 0 80px 0;
+    line-height:1.4;
   flex: 1;
   .address {
     padding: 1rem 0;
@@ -268,15 +271,16 @@ const Form = styled.div`
     }
 
     button {
+      color:#fff;
       width: 5rem;
       height: 1.8rem;
-      background-color: #01be96;
+      background-color: #0B1425;
       border: none;
       border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #01be9551);
+      /* filter: drop-shadow(0px 4px 5px #01be9551); */
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #01be9551);
+        /* filter: drop-shadow(0px 6px 9px #01be9551); */
       }
     }
   }

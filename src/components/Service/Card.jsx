@@ -29,6 +29,7 @@ const Container = styled.div`
     }
 
     p{
+        line-height:1.4;
         font-size: 0.8rem;
     }
 `

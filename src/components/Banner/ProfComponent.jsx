@@ -8,20 +8,20 @@ import { Slide } from "react-awesome-reveal";
 const ProfComponent = () => {
   return (
     <Container id="home">
-      <Slide direction="left">
-        <Texts>
+      {/* <Slide direction="left"> */}
+        <div className=" texts">
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Concilia Ndlovu</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Usher Ndlovu</h1>
+          <h3>Frontend Web Developer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+          <p>
+{ "Hello! I'm Usher Ndlovu, a frontend web developer with expertise in HTML, CSS, JavaScript, and React.js. I create visually appealing websites with a keen eye for design. Let's collaborate and bring your ideas to life!" }
+</p>
           </p>
-          <button>Let's talk</button>
-          <Social>
+          {/* <button>Let's talk</button> */}
+          {/* <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
@@ -40,12 +40,12 @@ const ProfComponent = () => {
                 </a>
               </span>
             </div>
-          </Social>
-        </Texts>
-      </Slide>
+          </Social> */}
+        </div>
+      {/* </Slide> */}
       <Slide direction="right">
         <Profile>
-          <img src="./projects/globe.svg" alt="profile" />
+          <img src="./projects/banner.jpeg" alt="profile" />
         </Profile>
       </Slide>
     </Container>
@@ -55,18 +55,24 @@ const ProfComponent = () => {
 export default ProfComponent;
 
 const Container = styled.div`
+margin: -56px 219px 125px 127px;
   display: flex;
+  align-items:center;
+  justify-content:center;
   gap: 2rem;
-  padding-top: 3rem;
+  padding-top: 10rem;
   width: 80%;
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   z-index: 1;
   @media (max-width: 1025px) {
+  
     height: 50vh;
     max-width: 100%;
   }
   @media (max-width: 840px) {
+    margin: -123px 0 0px 92px;
+    text-align:center;
     /* width: 90%; */
     height: 50vh;
   }
@@ -75,14 +81,30 @@ const Container = styled.div`
     flex-direction: column;
     height: 100vh;
     padding-top: 0rem;
+    margin: -10% 0 41px 22px;
+    text-align:left;
+    line-height:1.4;
   }
   @media (max-width: 400px) {
     height: 80vh;
     padding-top: 3rem;
   }
+  .texts{
+    @media (max-width: 992px) {
+      margin: -4% 0 0 0;
+}
+ 
+  }
 `;
 const Texts = styled.div`
+/* margin: 0 0 150px -59px; */
+    /* text-align: center; */
   flex: 1;
+  @media (max-width: 992px) {
+     margin: 0 0 300px -59px; 
+  margin:0px; 
+ text-align:left;
+}
   h4 {
     padding: 1rem 0;
     font-weight: 500;
@@ -99,10 +121,12 @@ const Texts = styled.div`
     text-transform: capitalize;
   }
   p {
+    padding: 0rem 0rem 0rem 0rem;
+    line-height:1.4;
     font-weight: 300;
-    width: 70%;
+    width: 95%;
 
-    @media (max-width: 1025px) {
+    @media (max-width: 1200px) {
       width: unset;
     }
     @media (max-width: 700px) {
@@ -195,15 +219,16 @@ const Social = styled.div`
 `;
 const Profile = styled.div`
   img {
-    width: 12rem;
-    margin-top: 4rem;
-    filter: drop-shadow(0px 10px 10px #01be9570);
-    transition: transform 400ms ease-in-out;
+    width: 40rem;
+    
+    /* filter: drop-shadow(0px 10px 10px #01be9570);
+    transition: transform 400ms ease-in-out; */
     @media (max-width: 1025px) {
-      width: 11rem;
-      margin-top: 4rem;
+      width: 34rem;
+    margin-top: -4rem;
     }
     @media (max-width: 780px) {
+      display:none;
       width: 7rem;
       margin-top: 4rem;
     }

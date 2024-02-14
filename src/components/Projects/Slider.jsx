@@ -6,25 +6,29 @@ import styled from 'styled-components';
 
 let data = [
   {
-    img: "./projects/mweya.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    img: "./projects/Daas Africa.png",
+    disc: "A Data gathering company focused on the agriculture, infrastructure and tourism sectors.",
+    link:"https://usher-arete.vercel.app/"
   },
   {
-    img: "./projects/jump.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    img: "./projects/Archs.png",
+    disc: "Prolific Boreholes is a dynamic, full service borehole drilling & water solutions company.",
+    link:"https://usher-archs.vercel.app/"
   },
   {
-    img: "./projects/dylan.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    img: "./projects/Arete.png",
+    disc: "Equity investor supporting businesses from early to established stages, offering follow-on capital.",
+    link:"https://usher-eatwell.vercel.app/"
   },
   {
     img: "./projects/uncommon.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+    disc: "Uncommon.org is a nonprofit organization that trains unemployed young adults for tech jobs. ",
+    link:"https://usher-car-rental.vercel.app/"
   },
-  {
-    img: "./projects/golf.png",
-    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-  },
+  // {
+  //   img: "./projects/golf.png",
+  //   disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+  // },
 
 ];
 
