@@ -6,29 +6,27 @@ import styled from 'styled-components';
 
 let data = [
   {
-    img: "./projects/Daas Africa.png",
-    disc: "A Data gathering company focused on the agriculture, infrastructure and tourism sectors.",
-    link:"https://usher-arete.vercel.app/"
+    img: "./projects/Screenshot 2024-02-22 at 09.13.44.png",
+    disc: "Secure Car Rental at the Best Price Guaranteed Today",
+    link:"https://usher-carrental.vercel.app/home"
   },
   {
-    img: "./projects/Archs.png",
-    disc: "Prolific Boreholes is a dynamic, full service borehole drilling & water solutions company.",
+    img: "./projects/Screenshot 2024-02-23 at 14.32.27.png",
+    disc: "One of the leading financial technology companies in Sub-Saharan Africa.",
     link:"https://usher-archs.vercel.app/"
   },
   {
     img: "./projects/Arete.png",
     disc: "Equity investor supporting businesses from early to established stages, offering follow-on capital.",
-    link:"https://usher-eatwell.vercel.app/"
+    link:"https://usher-arete.vercel.app/"
   },
   {
-    img: "./projects/uncommon.png",
-    disc: "Uncommon.org is a nonprofit organization that trains unemployed young adults for tech jobs. ",
-    link:"https://usher-car-rental.vercel.app/"
+    img: "./projects/Screenshot 2024-02-23 at 14.39.27.png",
+    disc: "Come and eat well with our delicious & healthy foods. ",
+    link:"https://usher-eatwell.vercel.app/"
   },
-  // {
-  //   img: "./projects/golf.png",
-  //   disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-  // },
+ 
+
 
 ];
 

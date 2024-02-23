@@ -38,7 +38,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="#">tel:+263 77610 1826</a>
+              <a href="#">+263 77610 1826</a>
             </Slide>
           </div>
           <div>
@@ -53,9 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="profiles">
-          <Slide direction="left">
-            <h1>Check my profiles</h1>
-          </Slide>
+          
           {/* <div className="icons">
             <Zoom>
               <span>
@@ -95,26 +93,26 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
+        <form id="contactform" action="https://formsubmit.co/3da30e11f2094738663cbeea10d797df" method="POST">
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" required placeholder="Fullname..." />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input type="email" required placeholder="Email..." />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea cols="30" rows="10" required placeholder="Message..."></textarea>
             </div>
-            <button>Submit</button>
+            <input className="button" value="Submit" type="submit"/>
           </form>
         </Slide>
       </Form>
@@ -270,7 +268,7 @@ const Form = styled.div`
       }
     }
 
-    button {
+    .button {
       color:#fff;
       width: 5rem;
       height: 1.8rem;
@@ -280,7 +278,7 @@ const Form = styled.div`
       /* filter: drop-shadow(0px 4px 5px #01be9551); */
       cursor: pointer;
       :hover {
-        /* filter: drop-shadow(0px 6px 9px #01be9551); */
+        filter: drop-shadow(0px 6px 9px #01be9551);
       }
     }
   }
