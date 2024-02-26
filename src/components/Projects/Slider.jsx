@@ -7,21 +7,25 @@ import styled from 'styled-components';
 let data = [
   {
     img: "./projects/Screenshot 2024-02-22 at 09.13.44.png",
+    description: "Car Rental",
     disc: "Secure Car Rental at the Best Price Guaranteed Today",
     link:"https://usher-carrental.vercel.app/home"
   },
   {
     img: "./projects/Screenshot 2024-02-23 at 14.32.27.png",
+    description: "Sub-Saharan Africa",
     disc: "One of the leading financial technology companies in Sub-Saharan Africa.",
     link:"https://usher-archs.vercel.app/"
   },
   {
     img: "./projects/Arete.png",
+    description: "Arete",
     disc: "Equity investor supporting businesses from early to established stages, offering follow-on capital.",
     link:"https://usher-arete.vercel.app/"
   },
   {
     img: "./projects/Screenshot 2024-02-23 at 14.39.27.png",
+    description: "EatWell",
     disc: "Come and eat well with our delicious & healthy foods. ",
     link:"https://usher-eatwell.vercel.app/"
   },

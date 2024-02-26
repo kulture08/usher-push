@@ -12,7 +12,7 @@ function App() {
         <Header />
         <ProfComponent />
       </Banner>
-      <Services />
+      {/* <Services /> */}
       <LightColor>
         <Projects />
       </LightColor>

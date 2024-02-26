@@ -17,11 +17,11 @@ const Services = () => {
       </Slide>
       <Cards>
         <Slide direction="left">
-          {/* <Card
+          <Card
             Icon={MdDesignServices}
             title={"ui/ux designer"}
             disc={`""Aspiring UX/UI designer with a foundation in user experience and interface design.""`}
-          /> */}
+          />
         </Slide>
         {/* <Slide direction="up">
           <Card
