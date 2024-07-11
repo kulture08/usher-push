@@ -16,36 +16,17 @@ const ProfComponent = () => {
           <h1 className="green">Usher Ndlovu</h1>
           <h3>Frontend Web Developer</h3>
           <p>
-          <p>
+          <p className="txt">
 { "Hello! I'm Usher Ndlovu, a frontend web developer with expertise in HTML, CSS, JavaScript, and React.js. I create visually appealing websites with a keen eye for design. Let's collaborate and bring your ideas to life!" }
 </p>
           </p>
-          {/* <button>Let's talk</button> */}
-          {/* <Social>
-            <p>Check out my</p>
-            <div className="social-icons">
-              <span>
-                <a href="/">
-                  <AiOutlineInstagram />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <GiEarthAmerica />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <FaLinkedinIn />
-                </a>
-              </span>
-            </div>
-          </Social> */}
+          
+          
         </div>
       {/* </Slide> */}
       <Slide direction="right">
         <Profile>
-          <img src="./projects/banner.jpeg" alt="profile" />
+          <img src="./projects/m.jpg" alt="profile" />
         </Profile>
       </Slide>
     </Container>
@@ -55,20 +36,21 @@ const ProfComponent = () => {
 export default ProfComponent;
 
 const Container = styled.div`
-margin: -56px 219px 125px 127px;
+    margin: 0 130px 20px;
   display: flex;
   align-items:center;
   justify-content:center;
   gap: 2rem;
-  padding-top: 10rem;
+  padding-top: 3rem;
   width: 80%;
   max-width: 1280px;
   /* margin: 0 auto; */
   z-index: 1;
   @media (max-width: 1025px) {
-  
+    margin: 0 112px 20px;
+/*   
     height: 50vh;
-    max-width: 100%;
+    max-width: 100%; */
   }
   @media (max-width: 840px) {
     margin: -123px 0 0px 92px;
@@ -93,12 +75,13 @@ margin: -56px 219px 125px 127px;
     @media (max-width: 992px) {
       margin: -4% 0 0 0;
 }
- 
+ .txt{
+   width: 35rem; 
+ }
   }
 `;
 const Texts = styled.div`
-/* margin: 0 0 150px -59px; */
-    /* text-align: center; */
+
   flex: 1;
   @media (max-width: 992px) {
      margin: 0 0 300px -59px; 
@@ -124,7 +107,7 @@ const Texts = styled.div`
     padding: 0rem 0rem 0rem 0rem;
     line-height:1.4;
     font-weight: 300;
-    width: 95%;
+    width: 15px;
 
     @media (max-width: 1200px) {
       width: unset;
@@ -179,6 +162,7 @@ const Social = styled.div`
     display: block;
   }
   p {
+    width: 31rem;
     font-size: 0.9rem;
     width: unset;
     @media (max-width: 690px) {
@@ -219,13 +203,15 @@ const Social = styled.div`
 `;
 const Profile = styled.div`
   img {
-    width: 40rem;
+    width: 30rem;
+    
     
     /* filter: drop-shadow(0px 10px 10px #01be9570);
     transition: transform 400ms ease-in-out; */
     @media (max-width: 1025px) {
-      width: 34rem;
-    margin-top: -4rem;
+      width: 20rem;
+      height: 22vh;
+      /* width: 25rem; */
     }
     @media (max-width: 780px) {
       display:none;

@@ -12,19 +12,19 @@ let data = [
     link:"https://usher-carrental.vercel.app/home"
   },
   {
-    img: "./projects/Screenshot 2024-02-23 at 14.32.27.png",
+    img: "./projects/Screenshot 2024-07-11 at 16.08.27.png",
     description: "Sub-Saharan Africa",
     disc: "One of the leading financial technology companies in Sub-Saharan Africa.",
     link:"https://usher-archs.vercel.app/"
   },
   {
-    img: "./projects/Arete.png",
+    img: "./projects/Screenshot 2024-07-11 at 15.59.29.png",
     description: "Arete",
     disc: "Equity investor supporting businesses from early to established stages, offering follow-on capital.",
     link:"https://usher-arete.vercel.app/"
   },
   {
-    img: "./projects/Screenshot 2024-02-23 at 14.39.27.png",
+    img: "./projects/Screenshot 2024-05-08 at 00.29.58.png",
     description: "EatWell",
     disc: "Come and eat well with our delicious & healthy foods. ",
     link:"https://usher-eatwell.vercel.app/"
